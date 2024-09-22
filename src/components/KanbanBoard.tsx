@@ -36,7 +36,18 @@ const KanbanBoard = () => {
   );
 
   return (
-    <div className="flex m-auto min-h-screen w-full items-center overflow-x-auto overflow-y-hidden px-12 py-7">
+    <div className="flex flex-col m-auto min-h-screen w-full items-center overflow-x-auto overflow-y-hidden px-12 py-7">
+      <div className="flex items-center justify-center gap-2">
+        <a
+          href="#"
+          className="italic font-extrabold text-3xl text-gray-500 hover:text-rose-400"
+        >
+          #
+        </a>
+        <h1 className="text-3xl italic font-extrabold underline underline-offset-4 text-rose-100">
+          Kanban Board.
+        </h1>
+      </div>
       <DndContext
         sensors={sensors}
         onDragStart={onDragStart}
