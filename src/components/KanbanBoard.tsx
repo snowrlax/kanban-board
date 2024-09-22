@@ -45,7 +45,7 @@ const KanbanBoard = () => {
           #
         </a>
         <h1 className="text-3xl italic font-extrabold underline underline-offset-4 text-rose-100">
-          Kanban Board...
+          Kanban Board.
         </h1>
       </div>
       <DndContext
